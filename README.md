@@ -1,6 +1,11 @@
-### How to install
+### git create
 ```shell
-
+gh repo create elbowcli -d "elbowcli argparser"  --public
+git add .
+git commit -m "first commit"
+git branch -M main 
+git remote add origin https://github.com/donwany/elbowcli.git
+git push -u origin main
 ```
 ### Usage:
 ```shell
