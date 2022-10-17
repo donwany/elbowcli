@@ -5,7 +5,7 @@ python app.py \
     --lr 0.005 \
     --model "RandomForest" \
     --square 25 \
-    --output config.csv \
+    --filename rf \
     --verbosity 2
 
 python app.py \
@@ -13,5 +13,5 @@ python app.py \
     --lr 0.003 \
     --model "LogisticRegression" \
     --square 500 \
-    --output config.csv \
+    --filename lr \
     --verbosity 1

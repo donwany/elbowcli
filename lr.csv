@@ -1,0 +1,2 @@
+epochs,learning_rate,model
+500,0.003,LOGISTICREGRESSION

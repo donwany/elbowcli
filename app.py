@@ -22,8 +22,8 @@ if __name__ == '__main__':
     elif args.verbosity == 2:
         print(f"{args.square}^2 == {answer}")
 
-    if args.output is not None:
-        pd.DataFrame.from_dict([config]).to_csv("config.csv", index=False, header=True)
+    if args.filename is not None:
+        pd.DataFrame.from_dict([config]).to_csv(str(args.filename)+".csv", index=False, header=True)
 
     print(config)
 
