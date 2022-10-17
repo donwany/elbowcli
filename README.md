@@ -22,10 +22,10 @@ python app.py \
     --lr 0.005 \
     --model "RandomForest" \
     --square 25 \
-    --output config2\
+    --filename config2\
     --verbosity 2
      
-python app.py -e=200 -l=0.005 -m="RandomForest" -s=25 -o=config1.csv -v=2 
-python app.py -e 200 -l 0.005 -m "RandomForest" -s 25 -o config2.csv -v 2
+python app.py -e=200 -l=0.005 -m="RandomForest" -s=25 -f=config1 -v=2 
+python app.py -e 200 -l 0.005 -m "RandomForest" -s 25 -f config2 -v 2
   
 ```
